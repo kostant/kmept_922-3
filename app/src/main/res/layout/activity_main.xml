@@ -47,5 +47,11 @@
             android:layout_height="wrap_content"
             android:text="Маслов Дмитрий"/>
 
+        <Button
+            android:id="@+id/randome_doge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Горчаков Даниил"/>
+
     </LinearLayout>
 </ScrollView>
