@@ -12,7 +12,7 @@ To transfer the project to yourself, follow these steps:
 1. Clone the repository:
 
 ```
-[git clone https://github.com/your-username/Accessible-Form-UI.git](https://github.com/kostant/kmept_922-3.git) .
+git clone https://github.com/your-username/kmept_922-3.git .
 ```
 
 
