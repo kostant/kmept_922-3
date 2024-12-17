@@ -32,6 +32,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Некит Карина"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Орлов Артём"/>
 
     </LinearLayout>
 </ScrollView>
