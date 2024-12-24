@@ -10,6 +10,7 @@
         tools:ignore="MissingConstraints">
 
         <TextView
+            android:id="@+id/TextApi"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="kahcip"/>
