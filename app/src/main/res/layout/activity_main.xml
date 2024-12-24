@@ -55,5 +55,11 @@
             android:layout_height="wrap_content"
             android:text="Федичев Владимир"/>
 
+        <Button
+            android:id="@+id/randome_doge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Горчаков Даниил"/>
+
     </LinearLayout>
 </ScrollView>
