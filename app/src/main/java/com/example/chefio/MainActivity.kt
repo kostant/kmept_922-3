@@ -1,12 +1,6 @@
 package com.example.chefio
 
-import android.annotation.SuppressLint
-import android.content.Intent
-import android.os.Bundle
 import android.provider.Telephony.Mms.Intents
-import android.content.Intent
-import android.os.Bundle
-import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
@@ -17,7 +11,7 @@ import android.widget.Button
 import com.example.chefio.R
 
 class MainActivity : AppCompatActivity() {
-    @SuppressLint("MissingInflatedId")
+    @SuppressLint("MissingInflatedId", "SuspiciousIndentation")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
