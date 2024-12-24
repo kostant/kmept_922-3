@@ -1,5 +1,9 @@
 package com.example.chefio
 
+import android.content.Intent
+import android.os.Bundle
+import android.widget.Button
+import androidx.activity.enableEdgeToEdge
 import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
@@ -12,6 +16,13 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        var pyshkinButton: Button = findViewById(R.id.randome_doge)
+
+        pyshkinButton.setOnClickListener() {
+            val intent = Intent(this, PyshkinActivity::class.java)
+            startActivity(intent)
+        }
+        
         var gorchakovButton: Button = findViewById(R.id.randome_doge)
 
         gorchakovButton.setOnClickListener(){

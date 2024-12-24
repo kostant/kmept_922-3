@@ -25,6 +25,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".PyshkinActivity">
+
+        </activity>
         <activity android:name=".GorchakovActivity">
         </activity>
         <activity android:name=".ChangeScreenActivity"/>
