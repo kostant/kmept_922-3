@@ -14,7 +14,39 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
             android:text="Антончик Константин"/>
+      
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Пышкин Алексей"/>
+      
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Поляков Владислав"/>
+
+        <Button
+            android:id="@+id/buttonNekitKarina"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Некит Карина"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Орлов Артём"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Кожина Катя"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Маслов Дмитрий"/>
 
         <Button
             android:id="@+id/fedich"
