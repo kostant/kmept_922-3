@@ -29,6 +29,7 @@
             android:text="Поляков Владислав"/>
 
         <Button
+            android:id="@+id/buttonNekitKarina"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Некит Карина"/>
