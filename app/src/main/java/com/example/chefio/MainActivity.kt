@@ -1,14 +1,24 @@
 package com.example.chefio
 
-import android.os.Bundle
-import androidx.activity.enableEdgeToEdge
+import android.widget.Button
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
+import android.os.Bundle
 
 class MainActivity : AppCompatActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+
+        val buttonKozhinaKaty = findViewById<Button>(R.id.ButtonMaslov)
+
+
+        buttonKozhinaKaty.setOnClickListener {
+            val intent = Intent(this, SecondActivity::class.java)
+            intent.putExtra("greetingName", "Дима")
+            startActivity(intent)
+        }
     }
 }
