@@ -48,5 +48,11 @@
             android:layout_height="wrap_content"
             android:text="Маслов Дмитрий"/>
 
+        <Button
+            android:id="@+id/fedich"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Федичев Владимир"/>
+
     </LinearLayout>
 </ScrollView>
