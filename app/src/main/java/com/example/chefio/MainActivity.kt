@@ -17,6 +17,12 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        val ChangeButton: Button = findViewById(R.id.polyakov_button)
+        ChangeButton.setOnClickListener{
+            val intent = Intent(this, ChangeScreenActivity::class.java)
+            startActivity(intent)
+        }
         
         var fedichButton: Button = findViewById(R.id.fedich)
 
