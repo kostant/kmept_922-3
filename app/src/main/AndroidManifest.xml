@@ -33,6 +33,7 @@
         <activity android:name=".ChangeScreenActivity"/>
         <activity android:name=".FedichActivity"/>
         <activity android:name=".SecondActivity"/>
+        <activity android:name=".MvnActivity"/>
     </application>
 
 </manifest>
