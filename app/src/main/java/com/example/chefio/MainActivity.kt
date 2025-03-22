@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
         
-        var gorchakovButton: Button = findViewById(R.id.randome_doge)
+        var gorchakovButton: Button = findViewById(R.id.randome_dog)
 
         gorchakovButton.setOnClickListener(){
             val intent = Intent(this, GorchakovActivity::class.java)
@@ -39,12 +39,20 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
         
-    val buttonNekitKarina = findViewById<Button>(R.id.buttonNekitKarina)
+        val buttonNekitKarina = findViewById<Button>(R.id.buttonNekitKarina)
 
         buttonNekitKarina.setOnClickListener{
-            val intent = Intent(this,SecondActivity::class.java)
-            intent.putExtra("greetingName", "Карина")
+                val intent = Intent(this,SecondActivity::class.java)
+                intent.putExtra("greetingName", "Карина")
+                startActivity(intent)
+        }
+
+        val buttonMvn = findViewById<Button>(R.id.mvn_button)
+
+        buttonMvn.setOnClickListener {
+            val intent = Intent(this,MvnActivity::class.java)
             startActivity(intent)
         }
     }
+
 }
