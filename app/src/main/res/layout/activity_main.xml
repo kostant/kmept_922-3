@@ -57,10 +57,15 @@
             android:text="Федичев Владимир"/>
 
         <Button
-            android:id="@+id/randome_doge"
+            android:id="@+id/randome_dog"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Горчаков Даниил"/>
+        <Button
+            android:id="@+id/mvn_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Михаил Вознесенский"/>
 
         <Button
             android:layout_width="match_parent"
