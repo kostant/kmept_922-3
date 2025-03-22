@@ -61,7 +61,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Горчаков Даниил"/>
-
+        <Button
+            android:id="@+id/Gudz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Гудзь Егор"/>
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
