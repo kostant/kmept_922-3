@@ -72,6 +72,12 @@
             android:layout_height="wrap_content"
             android:text="Михаил Вознесенский"/>
         <Button
+            android:id="@+id/button_surname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Тоджиев"
+            tools:ignore="MissingConstraints" />
+        <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
