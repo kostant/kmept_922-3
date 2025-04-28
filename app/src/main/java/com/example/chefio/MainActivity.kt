@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        var pyshkinButton: Button = findViewById(R.id.randome_doge)
+        var pyshkinButton: Button = findViewById(R.id.randome_doge1)
 
         pyshkinButton.setOnClickListener() {
             val intent = Intent(this, PyshkinActivity::class.java)
